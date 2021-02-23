@@ -1,5 +1,6 @@
 from collections import Counter
 
+# How many deletions does it need to make an anagram given two strings
 def deletionCounter(a,b):
     dict_a = Counter(a)
 
