@@ -10,6 +10,8 @@ def pairingSum(arr):
         for j in range(i,len(arr)):
             if arr[i] <= arr[j]:
                 s = arr[i] + arr[j]
+
+                # use bitwise operation to get power of two without using math library
                 if (s) >= 0 and (s & (s-1)) == 0:
                     counter += 1
     
